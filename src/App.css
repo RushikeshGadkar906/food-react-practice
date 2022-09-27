@@ -1,0 +1,111 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-none {
+    list-style: none;
+}
+
+ul.list-none li {
+    padding: 3px 0;
+    cursor: pointer;
+}
+
+.org-c {
+    color: orange;
+}
+
+.my_label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav.main_nav {
+    background-color: #Fff;
+    padding: 20px 0;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+}
+
+nav.main_nav .navbar-nav .nav-item .nav-link {
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav.main_nav .navbar-nav .nav-item .nav-link:hover {
+    color: orange;
+}
+
+.all_products_wrapper .item_wrapper {
+    padding: 15px;
+    border: 1px solid #fff;
+    margin-top: 15px;
+}
+
+.all_products_wrapper .item_wrapper:hover {
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.all_products_wrapper .item_wrapper .product {
+    position: relative;
+}
+
+.all_products_wrapper .item_wrapper .product .product__img {
+    height: 150px;
+    width: 100%;
+}
+
+.all_products_wrapper .item_wrapper .product .food_categories span {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_products_wrapper .item_wrapper .product .food_categories span.veg {
+    background-color: green;
+}
+
+.all_products_wrapper .item_wrapper .product .food_categories span.non-veg {
+    background-color: red;
+}
+
+.all_products_wrapper .item_wrapper .product .product__title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.all_products_wrapper .item_wrapper .product .product__desc,
+.all_products_wrapper .item_wrapper .product .product_price {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(22, 19, 19);
+}
+
+.all_products_wrapper .item_wrapper .product .bottom_area ul li {
+    list-style: none;
+}
+
+.all_products_wrapper .item_wrapper .product .bottom_area ul .product_rating {
+    background-color: green;
+    padding: 3px 15px;
+    color: #fff;
+}

@@ -1,0 +1,68 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "phone_number": 8446883665,
+      "name": "Rushikesh Gadkar",
+      "email": "gadkarrushikesh906@gmail.com",
+      "passworkd": "abc@123"
+    }
+  ],
+  "product": [
+    {
+      "product_cat": "veg",
+      "resto_loc": "Pune",
+      "id": 1,
+      "pname": "Paneer Shubham",
+      "qty": 10,
+      "price": 440,
+      "product_rating": "5.0",
+      "product_desc": "product description",
+      "image_url": "https://www.golokaso.com/wp-content/uploads/2018/05/veg-food-cover.jpg"
+    },
+    {
+      "product_cat": "veg",
+      "resto_loc": "Pune",
+      "id": 2,
+      "pname": "Paneer tikka",
+      "qty": 10,
+      "price": 440,
+      "product_rating": "4.0",
+      "product_desc": "product description",
+      "image_url": "http://thehealthymouse.com/wp-content/uploads/2019/07/IMG_6601.jpg"
+    },
+    {
+      "product_cat": "non veg",
+      "resto_loc": "Aurangabad",
+      "id": 3,
+      "pname": "biryani",
+      "qty": 10,
+      "price": 440,
+      "product_rating": "5.5",
+      "product_desc": "product description",
+      "image_url": "https://vismaifood.com/storage/app/uploads/public/e12/7b7/127/thumb__700_0_0_0_auto.jpg"
+    },
+    {
+      "product_cat": "non veg",
+      "resto_loc": "Aurangabad",
+      "id": 4,
+      "pname": "dum biryani",
+      "qty": 10,
+      "price": 440,
+      "product_rating": "4.5",
+      "product_desc": "product description",
+      "image_url": "https://assets.cntraveller.in/photos/6218cfdf6774879c067d3ece/1:1/w_1080,h_1080,c_limit/best%20biryani%20in%20pune%20lead.jpg"
+    },
+    {
+      "product_cat": "veg",
+      "resto_loc": "Amravati",
+      "id": 5,
+      "pname": "Gupchup",
+      "qty": 10,
+      "price": 440,
+      "product_rating": "4.5",
+      "product_desc": "product description",
+      "image_url": "https://im.indiatimes.in/media/content/2015/Mar/pani-puri-big-image-2-feautee_1425986720_725x725.jpg"
+    }
+  ]
+}
